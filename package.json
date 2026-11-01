@@ -1,0 +1,12 @@
+{
+  "name": "media-job-logs-search",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --import tsx src/media_job_service.test.ts",
+    "start": "node --import tsx src/run_media_job.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.23.8" },
+  "devDependencies": { "tsx": "^4.19.2", "typescript": "^5.6.3", "@types/node": "^22.10.1" }
+}
